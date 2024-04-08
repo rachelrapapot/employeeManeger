@@ -1,0 +1,14 @@
+C:\Users\user1\Desktop\mange Employ\MangerServer\Solid.Data\bin\Debug\net6.0\Solid.Data.deps.json
+C:\Users\user1\Desktop\mange Employ\MangerServer\Solid.Data\bin\Debug\net6.0\Solid.Data.runtimeconfig.json
+C:\Users\user1\Desktop\mange Employ\MangerServer\Solid.Data\bin\Debug\net6.0\Solid.Data.dll
+C:\Users\user1\Desktop\mange Employ\MangerServer\Solid.Data\bin\Debug\net6.0\Solid.Data.pdb
+C:\Users\user1\Desktop\mange Employ\MangerServer\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\mange Employ\MangerServer\Solid.Data\obj\Debug\net6.0\Solid.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\mange Employ\MangerServer\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\mange Employ\MangerServer\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfo.cs
+C:\Users\user1\Desktop\mange Employ\MangerServer\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\mange Employ\MangerServer\Solid.Data\obj\Debug\net6.0\Solid.Data.dll
+C:\Users\user1\Desktop\mange Employ\MangerServer\Solid.Data\obj\Debug\net6.0\refint\Solid.Data.dll
+C:\Users\user1\Desktop\mange Employ\MangerServer\Solid.Data\obj\Debug\net6.0\Solid.Data.pdb
+C:\Users\user1\Desktop\mange Employ\MangerServer\Solid.Data\obj\Debug\net6.0\Solid.Data.genruntimeconfig.cache
+C:\Users\user1\Desktop\mange Employ\MangerServer\Solid.Data\obj\Debug\net6.0\ref\Solid.Data.dll
