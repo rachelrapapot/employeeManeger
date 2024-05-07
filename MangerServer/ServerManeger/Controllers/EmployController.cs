@@ -18,7 +18,7 @@ namespace ServerManeger.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class EmployController : ControllerBase
     {
         // GET: api/<EmployController>
