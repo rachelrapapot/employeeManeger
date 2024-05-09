@@ -1,14 +1,14 @@
 import React from 'react';
-import { Dialog, DialogTitle, DialogContent, Typography, IconButton, List, ListItem, ListItemIcon, ListItemText } from '@material-ui/core';
-import PersonIcon from '@material-ui/icons/Person';
-import LockIcon from '@material-ui/icons/Lock';
-import EmailIcon from '@material-ui/icons/Email';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
-import DateRangeIcon from '@material-ui/icons/DateRange';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-import WcIcon from '@material-ui/icons/Wc';
-import ScheduleIcon from '@material-ui/icons/Schedule';
-import WorkIcon from '@material-ui/icons/Work';
+import { Dialog, DialogTitle, DialogContent, Typography, IconButton, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
+import PersonIcon from '@mui/icons-material/Person';
+import LockIcon from '@mui/icons-material/Lock';
+import EmailIcon from '@mui/icons-material/Email';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import DateRangeIcon from '@mui/icons-material/DateRange';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import WcIcon from '@mui/icons-material/Wc';
+import ScheduleIcon from '@mui/icons-material/Schedule';
+import WorkIcon from '@mui/icons-material/Work';
 
 const EmployeeDetailsDialog = ({ open, onClose, employee }) => {
     return (

@@ -22,13 +22,8 @@ function App() {
         <>
           <Routes>
           <Route path="/" element={ <Login />} />
-            <Route path="/All" element={isLoggedIn() ? <EmployeeList /> : <Navigate to="/" />} />
-           { /*<Route path="/HomePage" element={<HomePage />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/SignUp" element={<SignUp />} />
-            <Route path="/recipies" element={user&&<Recipies />} />
-            <Route path="/contact" element={user&&<Contact />} />
-            <Route path="/ShoppingList" element={user&&<ShoppingList userId={user?.Id} />} /> */}
+            {/* <Route path="/All" element={isLoggedIn() ? <EmployeeList /> : <Navigate to="/" />} /> */}בעיקרוןזה:אבל בגלל שצריך שיכנסו  בלי ביסמה  אז עשיתי ככה
+           <Route path="/All" element={<EmployeeList />}/>
             <Route path="/menu" element={<Menu/>} />
 
 

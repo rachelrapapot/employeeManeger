@@ -1,10 +1,4 @@
 
-// import React, { useState, useEffect } from 'react';
-// import { Button, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@material-ui/core';
-// import { Edit, Delete, Add } from '@material-ui/icons';
-// import EmployeeRow from './EmployeeRow';
-// import axios from "axios";
-// import { useDispatch, useSelector } from "react-redux";
 import SearchAppBar from './Menu';
 import AddEditEmployee from './AddWorker';
 import React, { useState, useEffect } from 'react';
@@ -17,39 +11,37 @@ import {
   TableHead,
   TableRow,
   Paper,
-  IconButton,
-  Typography,
   Box,
-  Avatar, exportToExcel
-} from '@material-ui/core';
-import { TextField } from '@material-ui/core';
-import { CloudDownload } from '@material-ui/icons';
+} 
+from '@mui/material'
+// import { TextField } from '@material-ui/core';
+import { CloudDownload } from '@mui/icons-material';
 
-import { Edit, Delete, Add } from '@material-ui/icons';
+
 import EmployeeRow from './EmployeeRow';
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 //import AddEditEmployee from './AddEditEmployee';
-import { makeStyles } from '@material-ui/core/styles';
-import { saveAs } from 'file-saver';
+// import { makeStyles } from '@mui/material/styles';
+
 // import XLSX from 'xlsx';
 import { CFB, SSF, parse_xlscfb, parse_zip, read, readFile, readFileSync, set_cptable, set_fs, stream, utils, version, write, writeFile, writeFileAsync, writeFileSync, writeFileXLSX, writeXLSX } from 'xlsx';
 import { json } from 'react-router-dom';
 import SendEmailDialog from './SendEmail';
 import RoleDialog from './RoleDialog';
 import EmployeeDetailsDialog from './DetailsEmployee';
-const useStyles = makeStyles((theme) => ({
-  tableContainer: {
-    margin: '20px auto',
-    width: '90%',
-  },
-  tableCell: {
-    padding: theme.spacing(1.5), // ריחוף של תאי הטבלה
-    textAlign: 'center', // מיקום תוכן במרכז התא
-    border: `1px solid ${theme.palette.divider}`, // הוספת גבול לתאים
-    height: '20px', // גובה השורה
-  },
-}));
+// const useStyles = makeStyles((theme) => ({
+//   tableContainer: {
+//     margin: '20px auto',
+//     width: '90%',
+//   },
+//   tableCell: {
+//     padding: theme.spacing(1.5), // ריחוף של תאי הטבלה
+//     textAlign: 'center', // מיקום תוכן במרכז התא
+//     border: `1px solid ${theme.palette.divider}`, // הוספת גבול לתאים
+//     height: '20px', // גובה השורה
+//   },
+// }));
 
 
 const EmployeeList = () => {
@@ -61,7 +53,7 @@ const EmployeeList = () => {
   const [OpenSendEmailDialog, setOpenSendEmailDialog] = useState(false);
   const [employeeEmail, SetNameEmail] = useState("")
 
-  const classes = useStyles(); // Get styles from makeStyles
+  // const classes = useStyles(); // Get styles from makeStyles
   const [GetFind, SetGetFind] = useState();
   const [openRoleDialog, setOpenRoleDialog] = useState(false); // 
   const [openDetail, setOpenDetails] = useState(false); // 

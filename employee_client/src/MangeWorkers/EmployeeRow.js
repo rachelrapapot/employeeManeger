@@ -1,7 +1,7 @@
 import React from 'react';
-import { TableRow, TableCell, IconButton } from '@material-ui/core';
-import { Edit, Delete, MailOutline } from '@material-ui/icons'; // Import the MailOutline icon for the email button
-import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
+import { TableRow, TableCell, IconButton }from '@mui/material';
+import { Edit, Delete, MailOutline } from '@mui/icons-material'; // Import the MailOutline icon for the email button
+import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 const EmployeeRow = ({ employee, onEdit, onDelete, onSendEmail ,onDetails}) => { // Add the onSendEmail prop
     const rowStyle = employee.gender == 0 ? { backgroundColor: '#F0F0F0' ,height: '30px', } : { backgroundColor: 'white', height: '2px' };
     return (

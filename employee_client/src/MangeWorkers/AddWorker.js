@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Dialog, DialogTitle, DialogContent, TextField, Button, Grid, FormControl, InputLabel, Select, MenuItem, IconButton } from '@material-ui/core';
+import { Dialog, DialogTitle, DialogContent, TextField, Button, Grid, FormControl, InputLabel, Select, MenuItem, IconButton } from '@mui/material';
 import axios from "axios";
-import DeleteIcon from '@material-ui/icons/Delete';
+import DeleteIcon from '@mui/icons-material/Delete';
 const AddEditEmployee = ({ open, handleClose, onAdd, employee, onUpdate }) => {
     const [newEmployee, setNewEmployee] = useState(employee ? employee : {});
     const [roles, setRoles] = useState([]);

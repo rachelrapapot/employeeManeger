@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import { Button, TextField, Typography, Container, Grid, Paper } from '@material-ui/core';
+import { Button, TextField, Typography, Container, Grid, Paper } from '@mui/material';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 
@@ -19,6 +19,7 @@ const Login = () => {
       .catch((error) => {
         console.error("Error logging in: ", error);
         alert("The username or password is incorrect");
+        nav('All');// רק בשביל בדיקה
       });
   };
 

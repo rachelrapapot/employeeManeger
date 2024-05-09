@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, TextField, Dialog, DialogActions, DialogContent, DialogTitle, emphasize } from '@material-ui/core';
+import { Button, TextField, Dialog, DialogActions, DialogContent, DialogTitle } from '@mui/material';
 import axios from 'axios';
 
 const SendEmailDialog = ({ open, handleClose, employeeEmail }) => {
